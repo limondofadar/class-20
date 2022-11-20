@@ -1,0 +1,635 @@
+/* common css start  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* common css end  */
+
+/* menu part start  */
+#menu_bar {
+    padding: 40px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* menu part end  */
+
+#banar_part {
+    padding: 380px 0;
+    background: url(../images/banar_part.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text_part_banar h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.text_part_banar h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+
+}
+
+.text_part_banar p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 341px;
+    padding-bottom: 55px;
+
+}
+
+.text_part_banar a span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background: #998675;
+
+
+
+}
+
+.font_for_row {
+    color: rgba(85, 85, 85, 0.806);
+}
+
+.font_for_row a {
+    color: rgba(85, 85, 85, 0.806);
+}
+
+.font_for_row h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.font_for_row p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.one p::before {
+    position: absolute;
+    height: 3px;
+    width: 75px;
+    content: "";
+    background: #ceccc7;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.col-lg-3:hover .one p::before {
+    background: #c7b299;
+    transition: .5s;
+}
+
+.col-lg-3:hover .one i {
+    color: #c7b299;
+    transition: .5s;
+}
+
+.col-lg-3:hover .one h5 {
+    color: #c7b299;
+    transition: .5s;
+}
+
+/* waxom part start  */
+
+
+#waxom_part {
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+
+
+.waxom_text_part h2 {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+}
+
+.waxom_text_part h6 {
+    padding: 0 225px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+
+}
+
+.waxom_text_part img {
+    width: 100%;
+
+
+}
+
+
+
+.word_press_them {
+    padding: 50px 0;
+    background: #3c2a21;
+}
+
+/* waxom part end */
+
+.woxor_puchase {
+    background: #998675;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* project part start  */
+#our_latest_project {
+    padding: 80px 0;
+}
+
+.our_latest_text_part h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+}
+
+.our_latest_text_part p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    line-height: 30px;
+    padding: 0 125px;
+    padding-bottom: 45px;
+}
+
+.our_latest_project_button ul li a {
+    padding: 10px 20px;
+
+    margin: 10px;
+    color: #5555;
+    border: 1px solid #5555;
+    border-radius: 5px;
+}
+
+.our_latest_project_button ul li a:hover {
+    background: #998675;
+    transition: .5s;
+    color: #fff;
+}
+
+.card_one {
+    margin-top: 30px;
+    position: relative;
+    height: 325px;
+    background: #fbfaf8;
+    cursor: pointer;
+}
+
+.overly_card {
+    height: 240px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card_one:hover .overly_card {
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+}
+
+.card_one:hover .shaph {
+
+    border-bottom: 15px solid #362f2d;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    transition: .5s;
+}
+
+.card_one:hover {
+    background: #362f2d;
+    transition: .5s;
+
+}
+
+.card_one:hover h5 {
+    color: #fff;
+    transition: .5s;
+
+}
+
+.card_one:hover p {
+    color: #c7b299;
+    transition: .5s;
+
+}
+
+
+
+
+
+.colorme {
+    color: #c7b299;
+}
+
+.icon_link_project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.card_one img {
+    width: 100%;
+    height: 240px;
+}
+
+
+
+.card_one_text h5 {
+    color: #c7b299;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card_one_text p {
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.project_button a span {
+    background: #998675;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#woxom_video {
+    padding-top: 210px;
+    padding-bottom: 260px;
+    background: url(../images/play_video_part.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.woxom_text h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.woxom_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 336px;
+}
+
+.video_circle_icon a i {
+    font-size: 60px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.217);
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+/* mobile device part start  */
+#mobile_device {
+    padding-top: 80px;
+}
+
+/* mobile device part end */
+
+.images_hand {
+    height: 620px;
+}
+
+.images_hand img {
+    width: 100%;
+    height: 100%;
+}
+
+.text_part_for_mobile_device {
+    padding-top: 110px;
+}
+
+.text_part_for_mobile_device h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #555555;
+
+}
+
+.text_part_for_mobile_device p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 28px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+
+}
+
+.link_icon_part {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #c7b299;
+    position: relative;
+}
+
+.icon_right {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon_text_part p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+#counter_part_start {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background: url(../images/linera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one_one {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.one_one h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.one_one p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.one_one p::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+
+
+/* card slider part start  */
+#card_slider_item {
+    padding: 85px 0;
+    position: relative;
+}
+
+.slick_slider_item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+
+}
+
+.slick_slider_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    padding: 0 233px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+
+}
+
+.card_end {
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    position: relative;
+    cursor: pointer;
+}
+
+.card_end img {
+    width: 100%;
+    height: 220px;
+}
+
+.end_card_date {
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: crimson;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.date {
+    width: 100%;
+    height: 30px;
+    background: #363636
+}
+
+.month {
+    width: 100%;
+    height: 30px;
+    background: #252525;
+}
+.date h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.end_card_text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    color: #555555;
+}
+.end_card_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    color: #555555;
+}
+
+.end_card_text a span {
+color: #c7b299;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight:300;
+padding-right:10px;
+}
+.end_card_text a i{
+    color: #c7b299;  
+}
+
+.card_end:hover  {
+background: #362f2d;
+border: 1px solid #FFF;
+transition: .5s;
+}
+.card_end:hover h3{
+color: #c7b299;
+transition: .5s;
+}
+
+.card_end:hover p{
+    color: #fff;
+    transition: .5s;
+}
+
+.card_end:hover .date{
+    transition: .5s;
+    background: #c7b299;
+}
+
+.card_end:hover .month{
+    transition: .5s;
+    background: #a48d72;
+}
+
+.icon_one{
+    font-size: 30px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    color: #d4d4d4;
+    cursor: pointer;
+}
+.icon_two{
+    font-size: 30px;
+    position: absolute;
+    bottom: -40px;
+    left: 45%;
+    color: #d4d4d4;
+    cursor: pointer;
+   
+}
+
+/* brand part start  */
+#brand_part{
+padding: 140px 0;
+    background:url(../images/brand_part_images.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.brand_icon img{
+    width: 100%;
+}
+
+/* brand part end */
+
+/* footer part start  */
+#foter_part{
+    padding: 85px;
+    background:#191919;
+}
+.logo_and_text p{
+    padding: 30px 0;
+   color: #555555;
+}
+   
+.logo_and_text h5{
+    border-bottom: 1px solid #555;
+    color: #555555;
+}
+
+.flex_images_bottom img{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* footer part end */
+
+/* end bar  */
+
+#end_bar{
+    padding: 45px;
+    background:#111111 ;
+}
+
+.end_text_part p{
+    color: #555550;
+}
+/* end bar  */
